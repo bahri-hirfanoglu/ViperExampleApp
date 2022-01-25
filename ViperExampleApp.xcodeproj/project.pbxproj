@@ -20,6 +20,8 @@
 		84CCDF1B27A03B2E00F388F2 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 84CCDF1A27A03B2E00F388F2 /* Kingfisher */; };
 		84CCDF1D27A03B4800F388F2 /* UIImageView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CCDF1C27A03B4800F388F2 /* UIImageView+Extension.swift */; };
 		84CCDF2027A03BB400F388F2 /* ProductType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CCDF1F27A03BB400F388F2 /* ProductType.swift */; };
+		84CCDF2227A03CA800F388F2 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CCDF2127A03CA800F388F2 /* Api.swift */; };
+		84CCDF2427A03CB200F388F2 /* ProductApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CCDF2327A03CB200F388F2 /* ProductApi.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		84CCDF1727A03A8300F388F2 /* ProductListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListTableViewCell.swift; sourceTree = "<group>"; };
 		84CCDF1C27A03B4800F388F2 /* UIImageView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extension.swift"; sourceTree = "<group>"; };
 		84CCDF1F27A03BB400F388F2 /* ProductType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductType.swift; sourceTree = "<group>"; };
+		84CCDF2127A03CA800F388F2 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		84CCDF2327A03CB200F388F2 /* ProductApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductApi.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +135,8 @@
 		84CCDF1627A0399E00F388F2 /* ApiModule */ = {
 			isa = PBXGroup;
 			children = (
+				84CCDF2127A03CA800F388F2 /* Api.swift */,
+				84CCDF2327A03CB200F388F2 /* ProductApi.swift */,
 			);
 			path = ApiModule;
 			sourceTree = "<group>";
@@ -228,6 +234,8 @@
 				84CCDEF627A037D100F388F2 /* AppDelegate.swift in Sources */,
 				84CCDF0B27A0384A00F388F2 /* ProductListPresenter.swift in Sources */,
 				84CCDF0D27A0385E00F388F2 /* ProductListInteractor.swift in Sources */,
+				84CCDF2227A03CA800F388F2 /* Api.swift in Sources */,
+				84CCDF2427A03CB200F388F2 /* ProductApi.swift in Sources */,
 				84CCDF0F27A0386800F388F2 /* ProductListRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

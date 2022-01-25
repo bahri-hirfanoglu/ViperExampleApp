@@ -98,6 +98,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="cej-47-s6x"/>
+                    <connections>
+                        <outlet property="productTableView" destination="Q0V-UX-7ll" id="9Vc-re-Nbc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
