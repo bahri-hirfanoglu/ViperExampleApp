@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		847593C427A03F0100DBC4A8 /* product.gif in Resources */ = {isa = PBXBuildFile; fileRef = 847593C327A03F0100DBC4A8 /* product.gif */; };
 		84CCDEF627A037D100F388F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CCDEF527A037D100F388F2 /* AppDelegate.swift */; };
 		84CCDEFA27A037D100F388F2 /* ProductListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84CCDEF927A037D100F388F2 /* ProductListViewController.swift */; };
 		84CCDEFD27A037D100F388F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84CCDEFB27A037D100F388F2 /* Main.storyboard */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		847593C327A03F0100DBC4A8 /* product.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = product.gif; sourceTree = "<group>"; };
 		84CCDEF227A037D100F388F2 /* ViperExampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViperExampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84CCDEF527A037D100F388F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84CCDEF927A037D100F388F2 /* ProductListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewController.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				84CCDF0927A0381400F388F2 /* ProductListModule */,
 				84CCDF1327A0398700F388F2 /* Views */,
 				84CCDF1E27A03BA800F388F2 /* Models */,
+				847593C327A03F0100DBC4A8 /* product.gif */,
 				84CCDEFE27A037D300F388F2 /* Assets.xcassets */,
 				84CCDF0027A037D300F388F2 /* LaunchScreen.storyboard */,
 				84CCDF0327A037D300F388F2 /* Info.plist */,
@@ -216,6 +219,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				847593C427A03F0100DBC4A8 /* product.gif in Resources */,
 				84CCDF0227A037D300F388F2 /* LaunchScreen.storyboard in Resources */,
 				84CCDEFF27A037D300F388F2 /* Assets.xcassets in Resources */,
 				84CCDEFD27A037D100F388F2 /* Main.storyboard in Resources */,
