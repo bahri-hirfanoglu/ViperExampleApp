@@ -7,3 +7,6 @@
 
 import Foundation
 
+final class ProductListEntities {
+    var productList: [ProductType] = []
+}
